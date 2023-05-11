@@ -1,0 +1,10 @@
+.icon{
+    font-size: 50px;
+    display: flex;
+    margin-inline: 10%;
+}
+@media (max-width: 768px) {
+   .icon{
+      display: none;
+    }
+}

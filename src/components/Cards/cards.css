@@ -1,0 +1,31 @@
+.card{
+  box-shadow: 7px 10px 50px #e8e2f0;
+  border-radius: 5px 0px 0px 5px;
+  margin-bottom: 15%;
+}
+.cardBody {
+  border-left: 5px solid transparent;
+  border-image: linear-gradient(150.72deg, #00b5d0 3.87%, #5c0e62 110.68%) 1;
+
+}
+.icons {
+  color: #591567;
+}
+.FirstSubCol{
+  padding-top: 15%;
+}
+.Share{
+  color: #857885;
+  font-weight: 700;
+}
+.mini-paragraph{
+  color: #857885;
+  font-weight: 640;
+  margin-right: 15%;
+}
+@media (max-width: 768px) {
+  .FirstSubCol,.SecondSubCol{
+    display: none;
+  }
+  
+}

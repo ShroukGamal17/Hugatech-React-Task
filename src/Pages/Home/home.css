@@ -1,0 +1,16 @@
+.Home
+{
+    background-color: #F7F3FA;
+    
+}
+.homesvg{
+    z-index: -1 !important;
+}
+.Cards-Component
+{margin-top: 130px;}
+@media (max-width: 768px) {
+.arrow{
+ display: none;
+  }
+  
+}

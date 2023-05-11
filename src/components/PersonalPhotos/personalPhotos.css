@@ -1,0 +1,64 @@
+
+.PersonalPhotos{
+  height: 400px;
+margin-top: 15%;
+}
+
+.person1{
+    position: absolute;
+   left:0%;
+    width: 230px;
+  }
+
+.person2{
+  position: absolute;
+   left:13%;
+    width: 160px;
+    margin-top: -30px;
+}
+.person4{
+  position: relative;
+   left:-6%;
+   top: -85px;
+    width: 270px;
+}
+.person5{
+  position: relative;
+  top: -190px;
+   left:36%;
+    width: 200px;
+}
+.person3{
+  position: relative;
+  top: 45px;
+  left: 75px;
+    width:200px;
+}
+ .Parag{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-right: 20%;
+}
+.Smart {
+  color: #857885;
+  font-weight: 700;
+}
+.Transaction {
+  font-size:small;
+  color: #e23434;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+.PersonalPhotos
+{display: none;}
+.Parag2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+}
+

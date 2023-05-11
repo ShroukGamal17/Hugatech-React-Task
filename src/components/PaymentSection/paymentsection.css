@@ -1,0 +1,40 @@
+.Parag {
+  padding-left: 40%;
+}
+.Payment {
+  padding-right: 27%;
+  color: #857885;
+  font-weight: 700;
+}
+.Paypar {
+  padding-right: 10% !important;
+  color: #857885;
+  font-weight: 600;
+}
+.credit {
+  font-size:small;
+  color: #e23434;
+  font-weight: 700;
+}
+.iPadImg {
+  width: 90%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .Payment-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Parag {
+    padding-left: 3%;
+  }
+  .reArrange {
+    order: -1;
+  }
+  .iPadImg{
+    transform: rotateY(180deg);
+  }
+}
