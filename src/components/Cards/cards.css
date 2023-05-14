@@ -1,0 +1,60 @@
+.card {
+  box-shadow: 7px 10px 50px #e8e2f0;
+  border-radius: 5px 0px 0px 5px;
+  margin-bottom: 15%;
+}
+.cardBody {
+  border-left: 5px solid transparent;
+  border-image: linear-gradient(150.72deg, #00b5d0 3.87%, #5c0e62 110.68%) 1;
+}
+.Cards-Section {
+  background-color: #f7f3fa;
+}
+.Cards {
+  background-color: #f7f3fa;
+}
+.icons {
+  color: #591567;
+}
+.FirstSubCol {
+  padding-top: 25%;
+}
+.Share {
+  color: #857885;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.mini-paragraph {
+  color: #857885;
+  font-weight: 640;
+  margin-right: 15%;
+}
+.CardsCurve {
+  z-index: -3;
+  width: auto;
+  margin-top: -23%;
+}
+@media (max-width: 768px) {
+  .Cards {
+    background-color: #ffffff;
+  }
+  .Payment-Col {
+    margin-top: 80px;
+    padding-left: 30px;
+  }
+  .FirstSubCol,
+  .SecondSubCol,
+  .CardsCurve {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .Cards {
+    background-color: #ffffff;
+  }
+  .Payment-Col {
+    margin-top: 80px;
+    padding-left: 30px;
+  }
+}
+

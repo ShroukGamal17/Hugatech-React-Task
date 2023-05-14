@@ -1,0 +1,175 @@
+.Paragraaph {
+  padding-left: 5%;
+  padding-right: 25%;
+  padding-top: 55px;
+  padding-bottom: 150px;
+}
+.LeftSide{
+  position: relative;
+margin-top: -30%;
+}
+.RightSideDecoration{
+  position: relative;
+  margin-top: -90%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.ParagraphHeader{
+margin-top: -40px;
+letter-spacing: 3px;
+font-weight: 700;
+}
+.ParagraphSvg{
+  opacity:0.3 ;
+  margin-left: -30px;
+}
+.Customers-Section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(99.22deg, #5c0e62 1.27%, #00b5d0 92.23%);
+}
+.customers-Paragraph
+{margin-block-start: 35px;}
+.main {
+  display: flex;
+}
+
+.left,
+.customers {
+  flex: 1;
+}
+
+.customers img {
+ 
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.customer {
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+}
+
+.customer-info {
+  width: 255px;
+  margin: 0 auto;
+}
+
+.customers .customer-description {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+.customer-title {
+  color: #ffbc51;
+}
+
+.one {
+  top: 160px;
+  right: 350px;
+}
+
+.two {
+  top: 100px;
+  right: 150px;
+}
+
+.three {
+  top: 300px;
+  right: 200px;
+}
+
+.four {
+  top: 450px;
+  right: 100px;
+}
+
+.five {
+  top: 450px;
+  right: 350px;
+}
+
+.one img{
+  width: 90px;
+  height: 90px;
+}
+.two img{
+  width: 90px;
+  height: 90px;
+}
+.three img{
+  width: 70px;
+  height: 70px;
+}
+.four img{
+  width: 60px;
+  height: 60px;
+}
+.five img{
+  width: 80px;
+  height: 80px;
+}
+
+
+.two img,
+.three img,
+.four img,
+.five img {
+  position: absolute;
+}
+.customer .customer-info{
+  display: none;
+  position: absolute;
+  right: 0px;
+}
+.one:hover .customer-info,
+.two:hover .customer-info,
+.five:hover .customer-info {
+  display:block;
+    width: 200px;
+}
+.three:hover .customer-info{
+  display:block;
+  width: 335px;
+}
+.four:hover .customer-info{
+  display:block;
+  width: 160px;
+}
+.one:hover img,
+.two:hover img,
+.three:hover img,
+.four:hover img,
+.five:hover img {
+  width: 100px;
+  height: 100px;
+}
+.responsive-slider {
+  display: none;
+}
+@media (max-width: 768px) {
+  .main {
+    display: none;
+  }
+
+  .triangel-svg {
+    display: none;
+  }
+  .responsive-slider {
+    display: block;
+    padding: 20px;
+    background: linear-gradient(99.22deg, #5c0e62 1.27%, #00b5d0 92.23%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .carousel-item img {
+    width: 126px;
+    height: 126px;
+  }
+  .customer-title h5 {
+    margin: 0px;
+  }
+}

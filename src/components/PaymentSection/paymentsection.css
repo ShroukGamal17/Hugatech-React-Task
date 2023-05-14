@@ -1,0 +1,19 @@
+.iPadImg {
+  width: 90%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .reArrange {
+    order: -1;
+  }
+  .iPadImg {
+    transform: rotateY(180deg);
+  }
+  .Pragraph-Container {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 25px;
+  }
+}
