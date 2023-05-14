@@ -3,6 +3,7 @@
   height: auto;
 }
 
+
 @media (max-width: 768px) {
   .reArrange {
     order: -1;

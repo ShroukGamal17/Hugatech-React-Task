@@ -129,12 +129,11 @@
 @media (max-width: 768px) {
   .gallery-left {
     margin-top: 50px;
-    margin-left: -40px;
     align-items: start;
     width: 300px;
     order: 1;
   }
   .gallery {
-    height: 65vh;
+    height: 90vh;
   }
 }
