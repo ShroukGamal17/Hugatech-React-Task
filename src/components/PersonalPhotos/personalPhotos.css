@@ -1,64 +1,43 @@
-
-.PersonalPhotos{
-  height: 400px;
-margin-top: 15%;
+.sub-col {
+  position: relative;
+  margin-left: -8%;
 }
 
-.person1{
-    position: absolute;
-   left:0%;
-    width: 230px;
+.personal-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .Personal-Sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
   }
 
-.person2{
-  position: absolute;
-   left:13%;
-    width: 160px;
-    margin-top: -30px;
-}
-.person4{
-  position: relative;
-   left:-6%;
-   top: -85px;
-    width: 270px;
-}
-.person5{
-  position: relative;
-  top: -190px;
-   left:36%;
-    width: 200px;
-}
-.person3{
-  position: relative;
-  top: 45px;
-  left: 75px;
-    width:200px;
-}
- .Parag{
- display: flex;
- flex-direction: column;
- justify-content: center;
- margin-right: 20%;
-}
-.Smart {
-  color: #857885;
-  font-weight: 700;
-}
-.Transaction {
-  font-size:small;
-  color: #e23434;
-  font-weight: 700;
-}
-@media (max-width: 768px) {
-.PersonalPhotos
-{display: none;}
-.Parag2 {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-}
-}
+  .personal-images {
+    width: 100%;
+  }
 
+  .personal-images div {
+    width: 30%;
+  }
+
+  .personal-images img {
+    width: 100%;
+  }
+
+  .personal-images .firstperson {
+    width: 38%;
+    margin-right: -30px;
+  }
+  .middle-photos {
+    margin-left: -10%;
+  }
+
+  .last-photos {
+    margin-left: -12%;
+  }
+}

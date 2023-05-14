@@ -12,8 +12,8 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 const Cards = () => {
   return (
     <>
-      <div className="container">
-        <div className="row Cards">
+      <div className="Cards-Section">
+        <div className="row container Cards">
           <div className="col-lg-8 d-flex justify-content-evenly align-items-center text-secondary row CardsSection">
             <div className="col-lg-4 FirstSubCol ">
               <Card className="card ">
@@ -86,13 +86,20 @@ const Cards = () => {
                 Hac sem ut eget tellus diam convallis lacus a, interdum nulla
                 sem adipiscing inw
               </p>
-              <span style={{ color: "#5C0E62" }}>
+              <span className="LearnMore">
                 Learn more <HiArrowNarrowRight className="arrow" />{" "}
               </span>
             </div>
           </div>
         </div>
       </div>
+      <svg className="CardsCurve" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,320L80,304C160,288,320,256,480,213.3C640,171,800,117,960,133.3C1120,149,1280,235,1360,277.3L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
     </>
   );
 };

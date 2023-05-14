@@ -11,25 +11,18 @@ import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
-  <>
-  <div className="Home">
-     <Header />
-     <div className="Cards-Component">
-
-     <Cards/>
-     </div>
- <div>
-     <Icons/>
-     </div>
-     <PaymentSection/>
-     <PersonalPhotos/>
-<PhotoGallery/>
-    
-<Customers/>
-
-<Footer/>
-     </div>
-     </>
+    <>
+      <div className="Home">
+        <Header />
+        <Cards />
+        <Icons />
+        <PaymentSection />
+        <PersonalPhotos />
+        <PhotoGallery />
+        <Customers />
+        <Footer />
+      </div>
+    </>
   );
 };
 export default Home;

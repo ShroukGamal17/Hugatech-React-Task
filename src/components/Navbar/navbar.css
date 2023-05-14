@@ -1,27 +1,24 @@
 .navbar {
-    background-color:transparent;
-  }
-  
-.Logo
-{
+  background-color: transparent;
+}
+
+.Logo {
   color: #fff;
 }
-   .list_item {
-    color: #fff ;
-  }
-  .list_item:hover {
-   color:#FFBC51;
-  }
-  .NavbarButton {
-    color: #fff;
-    background-color: #FFBC51;
-    width: 100px;
-    border: none;
-    border-radius: 20px;
-  }
- 
-  button .navbar-togg {
-    background-color: #FFBC51;
-  }
+.list_item {
+  color: #fff;
+}
+.list_item:hover {
+  color: #ffbc51;
+}
+.NavbarButton {
+  color: #fff;
+  background-color: #ffbc51;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+}
 
-  
+button .navbar-togg {
+  background-color: #ffbc51;
+}

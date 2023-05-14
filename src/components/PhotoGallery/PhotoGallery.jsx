@@ -2,26 +2,23 @@ import React from "react";
 import "./photoGallery.css";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
-
 const PhotoGallery = () => {
-  
   return (
     <>
       <div className="gallery">
-        <div className="gallery-left">
-        
-            <small className="Secure">SECURE TRANSACTION</small>
-            <h2 className="Savings">
+        <div className="gallery-left ">
+          <small className="Secure">SECURE TRANSACTION</small>
+          <h2 className="Savings">
             Safe Yours <span style={{ color: "#5C0E62" }}> Savings </span>{" "}
-            </h2>
-            <p className="paragraph">
-              Hac sem ut eget tellus diam convallis
-               lacus a, interdum nulla sem
-              adipiscing inw
-            </p>
-            <span className="LearnMore">Learn more <HiArrowNarrowRight className="arrow"/> </span> 
-          </div>
-     
+          </h2>
+          <p className="paragraph">
+            Hac sem ut eget tellus diam convallis lacus a, interdum nulla sem
+            adipiscing inw
+          </p>
+          <span className="LearnMore">
+            Learn more <HiArrowNarrowRight className="arrow" />{" "}
+          </span>
+        </div>
 
         <div className="gallery-right">
           <div className="first-row">

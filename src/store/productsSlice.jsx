@@ -1,17 +1,17 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { createAsyncThunk } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchProducts = createAsyncThunk(
-  'products/fetchProducts',
+  "products/fetchProducts",
   async () => {
-    const response = await fetch('https://dummyjson.com/products');
+    const response = await fetch("https://dummyjson.com/products");
     const data = await response.json();
     return data.products;
   }
 );
 
 const productsSlice = createSlice({
-  name: 'products',
+  name: "products",
   initialState: {
     items: [],
     loading: false,

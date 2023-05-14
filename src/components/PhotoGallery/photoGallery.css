@@ -1,11 +1,12 @@
 .gallery {
-  height: 55vh;
+  height: 54vh;
   padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
   overflow: hidden;
+  background-color: white;
 }
 
 .gallery-right {
@@ -128,10 +129,12 @@
 @media (max-width: 768px) {
   .gallery-left {
     margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: -40px;
+    align-items: start;
     width: 300px;
+    order: 1;
   }
+  .gallery {
+    height: 65vh;
   }
+}

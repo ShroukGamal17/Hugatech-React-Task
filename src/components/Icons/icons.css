@@ -1,10 +1,12 @@
-.icon{
-    font-size: 50px;
-    display: flex;
-    margin-inline: 10%;
+.icon {
+  font-size: 50px;
+  display: flex;
+  background-color: white;
+  width: 100%;
 }
+
 @media (max-width: 768px) {
-   .icon{
-      display: none;
-    }
+  .icon {
+    display: none;
+  }
 }

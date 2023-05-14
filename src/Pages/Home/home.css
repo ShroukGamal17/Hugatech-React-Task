@@ -1,16 +1,38 @@
-.Home
-{
-    background-color: #F7F3FA;
-    
+.Home {
+  background-color: #ffffff;
 }
-.homesvg{
-    z-index: -1 !important;
+.homesvg {
+  z-index: -1;
 }
-.Cards-Component
-{margin-top: 130px;}
-@media (max-width: 768px) {
-.arrow{
- display: none;
+
+.Pragraph-Container {
+  margin-left: 30%;
+  margin-top: 25%;
+}
+
+.Paragrph-Title {
+  font-size: small;
+  color: #e23434;
+  font-weight: 700;
+}
+.Paragraph-Head {
+  color: #857885;
+  font-weight: 700;
+}
+.Paragaph {
+  color: #857885;
+  font-weight: 600;
+}
+.Cards-Component {
+  margin-top: 130px;
+}
+.LearnMore {
+    color: #5c0e62;
+    font-weight: 700;
   }
   
+@media (max-width: 768px) {
+  .arrow {
+    display: none;
+  }
 }

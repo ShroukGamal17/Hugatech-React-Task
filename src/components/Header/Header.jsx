@@ -17,31 +17,31 @@ const Header = () => {
             <Navbar />
 
             <div className="row container">
-              <div className="col-lg-4 p-5 text-light header-text">
+              <div className="col-lg-4 p-4 text-light">
                 <h1>Get Your Payment Faster</h1>
                 <p>
                   Blinqpay helps businesses in Africa get paid by anyone,
                   anywhere in the world
                 </p>
-                <button className="StartButton">Start Now</button>
+                <button className="StartButton text-light">Start Now</button>
               </div>
               <div className="text-light justify-content-around headericon">
-      <h2>
-        <SiLandrover />
-      </h2>
-      <h2>
-        <SiMyanimelist />
-      </h2>
-      <h2>
-        <SiTrustedshops />
-      </h2>
-      <h2>
-        <RiLinkedinFill />
-      </h2>
-      <h2>
-        <SiTiktok />
-      </h2>
-    </div>
+                <h2>
+                  <SiLandrover />
+                </h2>
+                <h2>
+                  <SiMyanimelist />
+                </h2>
+                <h2>
+                  <SiTrustedshops />
+                </h2>
+                <h2>
+                  <RiLinkedinFill />
+                </h2>
+                <h2>
+                  <SiTiktok />
+                </h2>
+              </div>
               <div className="col-lg-8 col-sm-12 col-md-12 headerimagecontainer">
                 <img className="headerimg" src="assets/screen.png" alt="" />
                 <img className="headerimg" src="assets/Laptop.png" alt="" />
